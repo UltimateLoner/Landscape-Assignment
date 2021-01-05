@@ -1,0 +1,160 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg-img {
+    background-image: url("images/landscape.jpg");
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h3 {
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+nav a {
+    float: right;
+    color: white;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+h1, p {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.border {
+    text-align: center; 
+    border: 1px solid red;
+    padding: 12px 20px;
+    background-color: red;
+    color: #fff;
+    border-radius: 25px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    text-decoration: none;
+}
+
+.double_grid {
+    /*float: left;*/
+    width: 40%;
+    margin: 20px 1.15%;
+    height: 400px;
+    margin: 0;
+    padding: 5%;
+}
+
+.image {
+    
+    /* justify-content: flex-end; */
+    width: 50%;
+}
+
+/* img {
+    float: right;
+} */
+/*h1, p {
+    color: black;
+}*/
+
+.double_grid h1, .double_grid p {
+    color: black;
+}
+
+.p-container-1 {
+    display: flex;
+}
+
+.phase-3 {
+    text-align: center;
+    padding: 20px 10px;
+    margin: 20px 80px;
+}
+.phase-3 h2, .phase-3 p {
+    color: black;
+}
+.phase-3 p {
+    padding: 0 210px;
+}
+
+/* .p-container-2 {
+    background-color: gray; */
+
+/* .column-container {
+    display: flex;
+} */
+
+.column-part {
+    background-color: lightgray;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    
+}
+
+.icon {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    border: 1px solid blue;
+    border-radius: 80px;
+    margin: auto;
+}
+.column {
+    /* justify-content: space-between;
+    flex-direction: row; */
+    border: 1px solid white;
+    background-color: #D6E9FE;
+}
+
+.column h3, .column p {
+    color: black;
+}
+
+.column h3 {
+    text-align: center;
+}
+
+.bg-img-2 {
+    background-image: url("images/bg-icon.jpg");
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-img-2 h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.bg-img-2 p {
+    padding: 0 210px;
+}
+
+.fa-play {
+    padding: 70px 650px;
+    padding-bottom: 40px;
+}
+
+footer {
+    background: red;
+    padding: 30px 0;
+
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
